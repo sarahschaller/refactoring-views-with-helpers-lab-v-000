@@ -16137,3 +16137,4 @@ Processing by SongsController#show as HTML
   Parameters: {"id"=>"176"}
   [1m[35mSong Load (0.3ms)[0m  SELECT  "songs".* FROM "songs" WHERE "songs"."id" = ? LIMIT 1  [["id", 176]]
   Rendered songs/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 318ms (Views: 310.2ms | ActiveRecord: 0.3ms)
